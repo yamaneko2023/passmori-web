@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>パスモリ | 完全ローカルAIパスワード管理</title>
+<meta name="description" content="パスモリは完全ローカルで動くAI搭載のパスワード管理アプリ。データは端末から一切出ません。声で操作でき、シニアにやさしい設計。">
+<meta name="theme-color" content="#4FC9A8">
+
+<!-- Open Graph -->
+<meta property="og:title" content="パスモリ | 完全ローカルAIパスワード管理">
+<meta property="og:description" content="パスワードを守る、パスワードの森。端末内だけで動くAI搭載パスワード管理。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://passmori.jp/">
+<meta property="og:image" content="https://passmori.jp/assets/img/feature-graphic.jpg">
+<meta property="og:locale" content="ja_JP">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="パスモリ | 完全ローカルAIパスワード管理">
+<meta name="twitter:description" content="パスワードを守る、パスワードの森。">
+<meta name="twitter:image" content="https://passmori.jp/assets/img/feature-graphic.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="assets/img/app-icon.jpg">
+</head>
+<body>
+
+<!-- ============================================================
+     Header
+============================================================ -->
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand">
+      <img src="assets/img/app-icon.jpg" alt="パスモリ ロゴ">
+      <span class="brand-name">パスモリ</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#features">特長</a>
+      <a href="#how">使い方</a>
+      <a href="#pricing">料金</a>
+      <a href="#faq">よくある質問</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============================================================
+     Hero
+============================================================ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-copy">
+      <h1>パスワードを守る、<br>パスワードの森。</h1>
+      <p class="lead">
+        パスモリは、あなたの端末の中だけで動く<br>
+        AI搭載のパスワード管理アプリです。
+      </p>
+      <p>
+        データは端末から一切出ません。<br>
+        インターネット接続もサーバーも必要なく、<br>
+        声での操作もできる、やさしい設計です。
+      </p>
+      <div class="badges">
+        <a class="badge-store disabled" aria-disabled="true">
+          <span>🤖</span>
+          <span>Google Play で近日公開</span>
+        </a>
+        <a class="badge-store disabled" aria-disabled="true">
+          <span></span>
+          <span>App Store で近日公開</span>
+        </a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="assets/img/app-icon.jpg" alt="パスモリのアプリアイコン">
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     Features
+============================================================ -->
+<section id="features">
+  <div class="container">
+    <h2 class="section-title">5つの特長</h2>
+    <p class="section-lead">
+      他のパスワード管理アプリとここが違います。
+    </p>
+    <div class="features">
+
+      <div class="feature">
+        <div class="icon">🔐</div>
+        <h3>完全ローカル動作</h3>
+        <p>
+          すべてのデータを AES-256-GCM 方式で端末内に暗号化して保存。
+          当社のサーバーには一切送信されません。
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🤖</div>
+        <h3>端末内で動くAI</h3>
+        <p>
+          「楽天のパスワード教えて」「銀行のやつ」など普段の言葉で検索。
+          AIは全て端末内で動作します。
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🎙️</div>
+        <h3>声で操作できる</h3>
+        <p>
+          マイクボタンを押して話しかけるだけで
+          画面移動や検索が完結。手が震える方にも安心。
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">💌</div>
+        <h3>あんしんリレー</h3>
+        <p>
+          利用サービスの一覧と公式な引き継ぎ手続きを、
+          パスワードを渡さず大切な方へお届け。
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="icon">🌿</div>
+        <h3>シニアにやさしい</h3>
+        <p>
+          大きな文字、高コントラスト、押しやすいボタン。
+          60歳以上の方でも迷わず使えるUIです。
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     How it works
+============================================================ -->
+<section id="how" style="background: var(--mint-pale);">
+  <div class="container">
+    <h2 class="section-title">3ステップで始められます</h2>
+    <p class="section-lead">
+      初めての方でも、セットアップは数分で完了します。
+    </p>
+    <div class="narrow">
+      <div class="steps">
+
+        <div class="step">
+          <div>
+            <h3>マスターパスワードを決める</h3>
+            <p>
+              アプリを開いたら、あなただけのマスターパスワードを1つ設定します。
+              このひとつで、すべてのアカウント情報を守ります。
+              万が一のためにリカバリーコードも一緒に保管しましょう。
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div>
+            <h3>アカウントを追加（AIがカテゴリ提案）</h3>
+            <p>
+              サービス名やURLを入力するだけで、AIが最適なカテゴリを自動提案。
+              QRコード読取やカメラからの取り込みにも対応しています。
+            </p>
+          </div>
+        </div>
+
+        <div class="step">
+          <div>
+            <h3>いつでも検索・共有</h3>
+            <p>
+              話し言葉で検索、声で画面操作。
+              「あんしんリレー」で大切な方への引き継ぎ準備も整います。
+              すべて端末内で完結します。
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     Pricing
+============================================================ -->
+<section id="pricing">
+  <div class="container">
+    <h2 class="section-title">料金プラン</h2>
+    <p class="section-lead">
+      まずは無料でお試しいただけます。
+    </p>
+    <div class="pricing">
+
+      <div class="price-card recommended">
+        <span class="ribbon">おすすめ</span>
+        <h3>無料トライアル</h3>
+        <div class="amount">¥0 <small>/ 初月1ヶ月</small></div>
+        <ul>
+          <li>初月1ヶ月は全機能を無料で</li>
+          <li>登録数 無制限</li>
+          <li>完全ローカル暗号化</li>
+          <li>生体認証対応</li>
+        </ul>
+      </div>
+
+      <div class="price-card">
+        <h3>プレミアム（月額）</h3>
+        <div class="amount">¥400 <small>/ 月（税込）</small></div>
+        <ul>
+          <li>2ヶ月目以降、全機能を継続</li>
+          <li>登録数 無制限・新規追加</li>
+          <li>かんたん検索（辞書＋あいまい一致）</li>
+          <li>語呂合わせパスワード・全テンプレート</li>
+          <li>安心パトロール・あんしんリレー</li>
+        </ul>
+      </div>
+
+    </div>
+    <p class="section-lead">
+      トライアル終了後にお支払いがない場合も、保存済みパスワードの閲覧・コピー・編集は無料で続けられます。
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+============================================================ -->
+<section id="faq" style="background: var(--mint-pale);">
+  <div class="container narrow">
+    <h2 class="section-title">よくある質問</h2>
+
+    <div class="faq">
+
+      <details>
+        <summary>マスターパスワードを忘れた場合、復旧できますか？</summary>
+        <p>
+          設定時に発行される「リカバリーコード」を保管されていれば復旧できます。
+          マスターパスワードとリカバリーコードをどちらも紛失された場合、
+          技術的に復元することは当社でも不可能です（データは完全に端末内で
+          暗号化されているため）。ご登録時に必ず安全な場所にメモしてください。
+        </p>
+      </details>
+
+      <details>
+        <summary>データはどこに保存されますか？</summary>
+        <p>
+          お客様の端末内にのみ暗号化して保存されます（AES-256-GCM方式）。
+          当社のサーバーやクラウドには一切送信されません。
+          アプリをアンインストールするとすべてのデータが消去されます。
+        </p>
+      </details>
+
+      <details>
+        <summary>家族や大切な方と共有できますか？</summary>
+        <p>
+          「あんしんリレー」機能で、パスワード本体を渡さずに
+          「どのサービスを利用していたか」と「各サービスの公式な引き継ぎ手続き」を
+          PDF・テキスト・印刷でお渡しできます。
+          もしもの時の備えとしてご活用ください。
+        </p>
+      </details>
+
+      <details>
+        <summary>ネット接続は必要ですか？</summary>
+        <p>
+          アプリの動作にインターネット接続は不要です。
+          AI検索・音声操作・カテゴリ推定もすべて端末内で動作します。
+          接続が必要なのは、アプリのダウンロード時・購入時・各サービスの公式
+          引き継ぎページへアクセスする時だけです。
+        </p>
+      </details>
+
+      <details>
+        <summary>解約はいつでもできますか？</summary>
+        <p>
+          はい。Google Play Store または App Store のサブスクリプション管理画面から
+          いつでも解約できます。解約しても現在の課金期間が終了するまで
+          有料機能を引き続きご利用いただけます。
+        </p>
+      </details>
+
+      <details>
+        <summary>音声認識の音声データはどうなりますか？</summary>
+        <p>
+          デフォルトの「標準モード」では、端末OSの音声認識機能（Google音声認識 /
+          Apple Speech Framework）を経由してテキスト化します。
+          設定画面で「完全オフラインモード」に切り替えると、音声データは端末外に
+          一切送信されません（別途言語パックのダウンロードが必要）。
+        </p>
+      </details>
+
+      <details>
+        <summary>対応機種は何ですか？</summary>
+        <p>
+          まず Android 14 以降を対応予定です。iOS 版は Android の反響を見て
+          リリースを判断します。シニア向け端末（らくらくスマートフォン等）
+          でも動作するよう、軽量に設計されています。
+        </p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CTA
+============================================================ -->
+<section>
+  <div class="container">
+    <div class="cta">
+      <h2>まもなくリリース</h2>
+      <p>
+        パスモリは現在リリース準備中です。
+        リリース時にお知らせをご希望の方は
+        <a href="mailto:support@passmori.jp" style="color: #fff; text-decoration: underline;">support@passmori.jp</a>
+        までご連絡ください。
+      </p>
+      <a class="badge-store disabled" aria-disabled="true">
+        <span>🤖</span>
+        <span>Google Play で近日公開</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     Footer
+============================================================ -->
+<footer class="site-footer">
+  <div class="container">
+    <div>
+      <h4>パスモリ</h4>
+      <p style="margin: 0; opacity: 0.85;">
+        パスワードを守る、パスワードの森。<br>
+        完全ローカル AI パスワード管理。
+      </p>
+    </div>
+    <div>
+      <h4>サービス</h4>
+      <ul>
+        <li><a href="#features">特長</a></li>
+        <li><a href="#how">使い方</a></li>
+        <li><a href="#pricing">料金</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>法務</h4>
+      <ul>
+        <li><a href="privacy.html">プライバシーポリシー</a></li>
+        <li><a href="terms.html">利用規約</a></li>
+        <li><a href="commercial.html">特定商取引法に基づく表記</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>お問い合わせ</h4>
+      <ul>
+        <li><a href="mailto:support@passmori.jp">support@passmori.jp</a></li>
+        <li>株式会社 DIG-UP DATA</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 株式会社 DIG-UP DATA. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
